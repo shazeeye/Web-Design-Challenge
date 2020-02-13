@@ -1,0 +1,33 @@
+
+
+
+/* Giving headings a 30px size*/
+ 
+h3 {
+font-size: 30px;
+}
+
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 10px;
+  background: black;
+}
+/* Giving our plots some padding and a background color */
+.box{
+  padding: 10px;
+  background: #F8F8F8;
+  margin-top:8px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:20px;
+  align-content: center;
+}
+
+/* Changing background color when the screen size reduces to 700px */
+@media (max-width: 700px) {
+  body {
+    background-color:cornsilk;
+  }
+
+  
